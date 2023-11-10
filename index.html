@@ -1,60 +1,102 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
+        <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">    <title>index</title>
 </head>
+
 <body>
     <header>
-    <nav class="menu">
+        <nav class="menu">
+    <img src="./assets/logo/logoh.png" alt="" class="logo-img">
+    <!-- <h1 class="menu__logo">ELOGIOS SOM</h1> -->
     <section class="menu__container">
-        <h1 class="menu__logo">ELOGIOS SON</h1>    
-    <ul class="menu__links">
-        <li class="menu__item">
-            <a href="./index.html" class="menu__link">Home</a>
-        </li>
-        <li class="menu__item  menu__item--show">
-            <a href="#" class="menu__link">About <img src="assets/arrow.svg" class="menu__arrow" alt="Flecha"></a>
 
-            <ul class="menu__nesting">
-                <li class="menu__inside">
-                    <a href="./about.html" class="menu__link menu__link--inside">About </a>
-                </li>
-                <li class="menu__inside">
-                    <a href="#" class="menu__link menu__link--inside">About2 </a>
-                </li>
-                <li class="menu__inside">
-                    <a href="#" class="menu__link menu__link--inside">About3 </a>
-                </li>
-            </ul>
-        </li> 
-        
-        <li class="menu__item  menu__item--show">
-            <a href="#" class="menu__link">Poject <img src="assets/arrow.svg" class="menu__arrow" alt="Flecha"></a>
-            <ul class="menu__nesting">
-                <li class="menu__inside">
-                    <a href="#" class="menu__link menu__link--inside">Project1 </a>
-                </li>
-                <li class="menu__inside">
-                    <a href="#" class="menu__link menu__link--inside">Project2 </a>
-                </li>
-                <li class="menu__inside">
-                    <a href="#" class="menu__link menu__link--inside">Project3 </a>
-                </li>
-            </ul>
-        </li>
-        <li class="menu__item">
-            <a href="#" class="menu__link">Contac</a>
-        </li>
-    </ul>
+        <ul class="menu__links">
+            <li class="menu__item">
+                <a href="/index.html" class="menu__link">Inicio</a>
+            </li>
 
-    <div class="menu__hamburguer">
-        <img src="assets/menu.svg" alt="hamburgesa" class="menu__img">
-    </div>
+            <li class="menu__item menu__item--show">
+                <a href="#" class="menu__link">¿Quienes Somos? <img src="assets/arrow.svg" class="menu__arrow"></a>
+
+                <ul class="menu__nesting">
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">Nuestra Compañia</a>
+                    </li>
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">Nuestra Historia</a>
+                    </li>
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">Valores</a>
+                    </li>
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">Mision</a>
+                    </li>
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">Vision</a>
+                    </li>
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">Nuestra Directora</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="menu__item  menu__item--show">
+                <a href="#" class="menu__link">Resultados <img src="assets/arrow.svg" class="menu__arrow"></a>
+
+                <ul class="menu__nesting">
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">Acceso Empresa</a>
+                    </li>
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">Acceso Personas</a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="menu__item  menu__item--show">
+                <a href="#" class="menu__link">Trabaja con nosotros <img src="assets/arrow.svg" class="menu__arrow"></a>
+
+                <ul class="menu__nesting">
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">Vacantes vigentes</a>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="menu__item  menu__item--show">
+                <a href="#" class="menu__link">Contactanos <img src="assets/arrow.svg" class="menu__arrow"></a>
+
+                <ul class="menu__nesting">
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">Elogios SOM</a>
+                    </li>
+                    <li class="menu__inside">
+                        <a href="#" class="menu__link menu__link--inside">Elogios Habilitacion</a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="menu__item">
+                <a href="#" class="menu__link">Documentos Legales</a>
+            </li>
+
+        </ul>
+
+        <div class="menu__hamburguer">
+            <img src="assets/menu.svg" class="menu__img">
+        </div>
     </section>
+
+
 </nav>    </header>
 
     <h1>ESTO ES UN TITULO EN EL HOME</h1>
-    <script type="module" src="/js/scripts-min-ts.js"></script></body>
+    <script type="module" src="/js/scripts-min.js"></script></body>
+
 </html>
